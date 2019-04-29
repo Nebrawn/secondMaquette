@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/* ======================== */
+
+/* === INDISPENSABLES === */
+
+/*Boîtes*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*Clearfix*/
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*Navigation*/
+nav ul {
+    list-style: none;
+    padding: 0;
+    border: 0;
+}
+/*Texte invisible*/
+.no_text {
+    font-size: 0;
+    margin: 0;
+}
+
+.no_margin_text {
+    margin: 0;
+}
+/* ======================== */
+/* === VARIABLES === */
+
+
+/* === GRILLE === */
+.grid_container {
+    display: grid;
+}
+
+/* === POLICES & TEXTES === */
+html {
+    font-size: 75%;
+    font-family: sans-serif;
+}
+
+/* === BOUTONS & CTA === */
+
+
+/* ======================== */
+
+
+
+
